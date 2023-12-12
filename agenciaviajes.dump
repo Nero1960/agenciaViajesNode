@@ -1,0 +1,16 @@
+USE agenciaViajes;
+
+select * from viajes;
+
+DESCRIBE viajes;
+
+CREATE TABLE testimoniales (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(60) NOT NULL,
+    correo VARCHAR(60) NOT NULL,
+    mensaje TEXT NOT NULL,
+    PRIMARY KEY (id)
+
+);
+
+SELECT * FROM testimoniales;
